@@ -1,4 +1,4 @@
-def leiaDin(txt):
+def leia_din(txt):
     valido = False
     while not valido:
         entrada = str(input(txt)).replace(',', '.').strip()
@@ -9,7 +9,7 @@ def leiaDin(txt):
             return float(entrada)
 
 
-def leiaInt(txt):
+def leia_int(txt):
     while True:
         try:
             num = int(input(txt))
@@ -20,7 +20,7 @@ def leiaInt(txt):
             return num
 
 
-def leiaFloat(txt):
+def leia_float(txt):
     while True:
         try:
             num = float(input(txt))
@@ -31,7 +31,7 @@ def leiaFloat(txt):
             return num
 
 
-def leiaDin2(txt):
+def leia_din2(txt):
     while True:
         try:
             num = str(input(txt)).replace(',', '.')
